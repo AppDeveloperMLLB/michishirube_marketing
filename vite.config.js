@@ -9,9 +9,7 @@ export default defineConfig({
       autoImport: true,
     }),
   ],
-  base: process.env.NODE_ENV === 'production' 
-    ? '/michishirube-marketing/' 
-    : '/',
+  base: './',
   build: {
     outDir: 'docs',
     rollupOptions: {
