@@ -13,7 +13,7 @@ export default defineConfig({
     ? '/michishirube-marketing/' 
     : '/',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     rollupOptions: {
       output: {
         manualChunks: {
